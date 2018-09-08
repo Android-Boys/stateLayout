@@ -3,7 +3,6 @@ package com.fingdo.statelayoutdemo;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
-import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
@@ -77,11 +76,6 @@ public class SampleActivity extends AppCompatActivity implements View.OnClickLis
             @Override
             public void refreshClick() {
                 Toast.makeText(SampleActivity.this, R.string.toast_refresh, Toast.LENGTH_SHORT).show();
-            }
-
-            @Override
-            public void loginClick() {
-                Toast.makeText(SampleActivity.this, R.string.toast_sign_in, Toast.LENGTH_SHORT).show();
             }
         });
 
